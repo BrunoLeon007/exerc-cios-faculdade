@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        p{
+            color: rgb(25, 196, 196);
+        }
+        h1{background-color: aqua; border-radius: 20px;
+        };
+    </style>
+</head>
+<body>
+   <h1>
+    <center>Formulário</center></h1>
+   <form><!--campo de dados de entrada tipo texto-->
+    <fieldset>
+     <legend>Dados Cadastrais</legend>
+     <label for="nome">Nome</label><!--Label etiqueta insere nome a caixa-->
+     <input type="text" id="nome" placeholder="Digite seu Nome" required><!--placeholder atributo de marca dagua-->
+     <label for="Digite sua Idade" aria-placeholder="Digite sua Idade">Idade</label>
+     <input type="number"id="Digite sua Idade" placeholder="Digite sua Idade" required><!--Input para inserir-->
+     <label for="password">password</label>
+    <input type="password" id="password" placeholder="Digite sua senha" required><!--atributo required obriga o usuario a preencher as informações do campo de cadastro-->
+    <label for="E-mail">E-mail:</label>
+    <input type="email" id="E-mail" placeholder="Digite seu e-mail" required>
+    <input type="submit" value="Enviar Formulario"><!--atributo para mudar texto value-->
+    </fieldset>
+  
+</form>
+
+</body>
+</html>
